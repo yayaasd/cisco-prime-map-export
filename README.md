@@ -32,4 +32,15 @@ prime = {
 ```
 pip install -r requirements.txt
 ```
-5. add cronjob (keep in mind, the script could take some time)
+5. adjust the path/user in the script (simply search for these strings):
+```
+/PATH/TO/YOUR/FOLDER/
+/PATH/TO/YOUR/ssh_host_rsa_key
+username@EXTERNAL-SERVER:/PATH/TO/YOUR/vHOST/htdocs/
+hostname='EXTERNAL-SERVER'
+username='USERNAME'
+```
+7. add cronjob (keep in mind, the script could take some time)
+```
+0 3 * * * python /PATH/TO/YOUR/FOLDER/prime-map-exporter.py >> /var/log/cronjob_prime-map-exporter.log 2>&1
+```
