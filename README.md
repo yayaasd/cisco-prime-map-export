@@ -10,7 +10,7 @@ We build a possibility to change the color of the APs based on device model. Use
 ![image](https://github.com/user-attachments/assets/be9f34cc-d49a-49df-8be9-fb2c6fcb2cf0)
 
 ### Warranty
-Tool is provided as is and no adjustments promised
+Tool is provided as is and no adjustments promised. Use at your own risk!
 
 ### Compatibility
 Tested on Prime Infrastructure 3.10.5
