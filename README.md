@@ -15,8 +15,21 @@ Tool is provided as is and no adjustments promised
 ### Compatibility
 Tested on Prime Infrastructure 3.10.5
 
-### Install
+## Install
 1. git clone to your server
-2. edit device_credentials_template.py and save as device_credentials.py
-3. install python environment (see requirements.txt)
-4. add cronjob (keep in mind, the script could take some time)
+```
+git clone https://github.com/yayaasd/cisco-prime-map-export.git cisco-prime-map-export
+```
+3. edit device_credentials_template.py and save as device_credentials.py
+```
+prime = {
+        "hostname": "prime.domain.name",
+        "user": "USERNAME",
+        "password": "PASSWORD"
+        }
+```
+4. install python environment (see requirements.txt)
+```
+pip install -r requirements.txt
+```
+5. add cronjob (keep in mind, the script could take some time)
