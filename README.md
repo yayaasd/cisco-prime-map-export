@@ -1,6 +1,6 @@
 ## Cisco Prime Map Exporter
 
-Got the idea from https://github.com/pieewiee/CiscoPrimeMapExport and started building a new Tool.
+Got the idea from https://github.com/pieewiee/CiscoPrimeMapExport and started building a new python tool.
 Maybe this is useful for everybody who is going to replace prime or just need some daily exports for third party.
 
 ### Capabilities
